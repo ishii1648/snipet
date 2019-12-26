@@ -1,0 +1,1 @@
+* docker inspect * 指定したコンテナのPIDを表示 * docker inspect registry --format '{{.State.Pid}}'
