@@ -1,0 +1,1 @@
+* kubeadm * access tokenを出力  * kubeadm token create --print-join-command 
