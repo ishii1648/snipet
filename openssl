@@ -1,0 +1,4 @@
+* openssl * CSRファイルをデコード * openssl req -text -noout -in ${CSR}
+* openssl * CAファイルをデコード * openssl x509 -text -noout -in ${CA}
+* openssl * 秘密鍵をデコード * openssl rsa -text -noout -in ${RSA}
+

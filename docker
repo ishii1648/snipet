@@ -1,1 +1,2 @@
-* docker inspect * 指定したコンテナのPIDを表示 * docker inspect registry --format '{{.State.Pid}}'
+* docker pid * [コンテナID]指定したコンテナのPIDを表示 * docker inspect ${CONTAINER_ID} --format '{{.State.Pid}}'
+* docker network * 各コンテナのネットワークモードを一覧表示 * docker ps -q -a | xargs docker inspect --format '{{ .Id }}: NetworkMode={{ .HostConfig.NetworkMode }}'
